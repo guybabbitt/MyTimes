@@ -4,11 +4,10 @@ body {
 
 #header {
     display: flex;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
-    padding: 10px 30px;
 }
 
 #logo {
@@ -16,6 +15,9 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    padding-left: 30px;
+    margin: 10px 0;
+    border: 1px solid black;
 }
 
 #logo p {
@@ -24,7 +26,8 @@ body {
 
 #nav {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 20px 30px;
+    margin: 10px 0;
     align-items: center;
 }
 
